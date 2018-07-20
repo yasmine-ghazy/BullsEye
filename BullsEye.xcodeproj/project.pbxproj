@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		C2AC86E1210203400081B27D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AC86E0210203400081B27D /* AppDelegate.swift */; };
-		C2AC86E3210203400081B27D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AC86E2210203400081B27D /* ViewController.swift */; };
+		C2AC86E3210203400081B27D /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AC86E2210203400081B27D /* GameVC.swift */; };
 		C2AC86E6210203400081B27D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2AC86E4210203400081B27D /* Main.storyboard */; };
 		C2AC86E8210203400081B27D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2AC86E7210203400081B27D /* Assets.xcassets */; };
 		C2AC86EB210203400081B27D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2AC86E9210203400081B27D /* LaunchScreen.storyboard */; };
+		C2E061E421023C0A00586908 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E061E321023C0A00586908 /* AboutVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C2AC86DD210203400081B27D /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2AC86E0210203400081B27D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C2AC86E2210203400081B27D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2AC86E2210203400081B27D /* GameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
 		C2AC86E5210203400081B27D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2AC86E7210203400081B27D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2AC86EA210203400081B27D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2AC86EC210203400081B27D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2E061E321023C0A00586908 /* AboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				C2AC86E0210203400081B27D /* AppDelegate.swift */,
-				C2AC86E2210203400081B27D /* ViewController.swift */,
+				C2AC86E2210203400081B27D /* GameVC.swift */,
 				C2AC86E4210203400081B27D /* Main.storyboard */,
 				C2AC86E7210203400081B27D /* Assets.xcassets */,
 				C2AC86E9210203400081B27D /* LaunchScreen.storyboard */,
 				C2AC86EC210203400081B27D /* Info.plist */,
+				C2E061E321023C0A00586908 /* AboutVC.swift */,
 			);
 			path = BullsEye;
 			sourceTree = "<group>";
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2AC86E3210203400081B27D /* ViewController.swift in Sources */,
+				C2AC86E3210203400081B27D /* GameVC.swift in Sources */,
 				C2AC86E1210203400081B27D /* AppDelegate.swift in Sources */,
+				C2E061E421023C0A00586908 /* AboutVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +308,7 @@
 				C2AC86F1210203400081B27D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
