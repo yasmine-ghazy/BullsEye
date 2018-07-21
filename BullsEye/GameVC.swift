@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import QuartzCore
 
 class GameVC: UIViewController {
 
@@ -24,6 +25,7 @@ class GameVC: UIViewController {
         super.viewDidLoad()
         self.startNewRound()
         self.updateLabels()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -91,6 +93,12 @@ class GameVC: UIViewController {
         round = 0
         score = 0
         startNewRound()
+        
+        let transition = CATransition()
+        transition.type = kCATransitionFade
+        transition.duration = 1
+        transition.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)
+        view.layer.add(transition, forKey: nil)
     }
 }
 
